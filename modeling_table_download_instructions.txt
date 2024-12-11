@@ -1,0 +1,6 @@
+modeling_table.csv Download Instructions
+
+1. Visit https://drive.google.com/file/d/1LKi0TglSuD6KpfPVCVOH2ru1h0xIrC8t/view
+2. Download the csv file
+3. Save modeling_table.csv in the same directory as main.py and features.xlsx
+4. Run main.py

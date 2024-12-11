@@ -25,7 +25,7 @@ def smape(y_true, y_pred):
   return np.mean(2 * np.abs(y_pred - y_true) / (np.abs(y_true) + np.abs(y_pred)))
 
 def get_modeling_table():
-  # READ INSTRUCTIONS IN DOWNLOAD_MODELING_TABLE.TXT FILE
+  # READ INSTRUCTIONS IN modeling_table_download_instructions.txt FILE
   # THIS WILL NOT WORK UNLESS YOU DOWNLOAD THE MODELING TABLE CSV FILE
   df = pd.read_csv('modeling_table.csv')
   return get_position_group(df)
